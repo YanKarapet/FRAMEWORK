@@ -17,6 +17,6 @@ spl_autoload_register(function ($class) {
 });
 
 
-$app = new Bootstrap;
+$app = new Route;
 
 

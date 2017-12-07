@@ -1,21 +1,20 @@
 <?php
 
 
-class Show{
+class Show extends Controller {
 
 
 
-    public function __construct(){
-//        echo  "this is show class";
-    }
+//    public function __construct(){
+//        parent::__construct();
+//        $this->view->render('show/index',['good' => 'hello','good1' =>'hello1']);
+//    }
 
 
     public function index(){
-        echo  "hello this is index";
+      $this->view('show/index',['good' => 'hello','good1' =>'hello1']);
     }
 
 
-    public function __call($name, $arguments){
-       header('Location:/');
-    }
+
 }
