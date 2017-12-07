@@ -13,7 +13,7 @@ class  Bootstrap{
                 $controller = new $url1;
                 $str = (string)$url[1];
                 $controller->$str();
-            }elseif (file_exists('app/controllers/' . $url[0] . '.php')){
+            }elseif (!file_exists('app/controllers/' . $url[0] . '.php')){
                 header('Location:/');
             }
             else {
