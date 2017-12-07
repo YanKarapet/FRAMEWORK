@@ -1,6 +1,6 @@
-<form action="">
+<form action="/user/check" method="post">
+    <input type="text" name="name">
     <input type="text">
-    <input type="text">
-    <button>login</button>
+    <button type="submit">login</button>
 </form>
 

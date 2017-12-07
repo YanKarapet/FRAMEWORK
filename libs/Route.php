@@ -13,7 +13,6 @@ class  Route{
         $newURL = $ucURL."Controller";
 
 
-
         if (!empty($url[0])) {
 
             if (!file_exists('app/controllers/' . $url[0] .'Controller'. '.php')){

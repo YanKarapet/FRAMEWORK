@@ -1,7 +1,7 @@
 <?php
 
 
-class Show extends Controller {
+class ShowController extends Controller {
 
 
 

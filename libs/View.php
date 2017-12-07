@@ -7,4 +7,6 @@ class View{
         extract($data);
         require_once 'app/views/'.$name.'.php';
     }
+
+
 }
